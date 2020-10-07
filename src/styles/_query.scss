@@ -1,0 +1,33 @@
+@media (max-width:991px) {
+    .navbar__nav {
+        .icon {
+            display: block;
+        }
+        ul.nav {
+            display: block !important;
+            background-color: rgba($color: $mainColor, $alpha: .8);
+            position: absolute;
+            top: 60px;
+            line-height: 2;
+            border-radius: 5px;
+            width: 70% !important;
+            padding: 7px;
+            margin-left: -1000px;
+            transition: margin-left .4s;
+            
+            &.show {
+                margin-left: 0;
+            }
+        }
+    }
+    
+}
+.icon {
+    position: absolute;
+    top: 14px;
+    right: 42px;
+    color: #fff;
+    font-size: 35px;
+    cursor: pointer;
+    display: none;
+}

@@ -1,0 +1,21 @@
+%btnWebsite {
+    background-color: $mainColor;
+    color: $subColor;
+    outline: 0;
+    border: 0;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-size: 12.5px;
+    font-weight: 500;
+    border-radius: 20px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin:5px 0 10px 0;
+    &:hover {
+        color: $subColor;
+    }
+}
+
+.btnWebsiteOne  {
+    @extend %btnWebsite
+}
