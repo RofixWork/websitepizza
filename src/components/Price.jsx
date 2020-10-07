@@ -8,7 +8,7 @@ const Price = () => {
                 <div className="row gy-3">
                     <div className="col-md-4 ">
                         <div className='price__img'>
-                            <img src="/img/pizza1.png"  className='img-fluid' alt=""/>
+                                <img src={require('../img/pizza1.png')}  className='img-fluid' alt=""/>
                         </div>
                         <div className='price__content'>
                             <h3 className='price__title'>Pizza Margeritta</h3>
@@ -19,7 +19,7 @@ const Price = () => {
                     {/* 2 */}
                     <div className="col-md-4 ">
                         <div className='price__img'>
-                            <img src="/img/pizza2.png"  className='img-fluid' alt=""/>
+                                <img src={require('../img/pizza2.png')}  className='img-fluid' alt=""/>
                         </div>
                         <div className='price__content'>
                             <h3 className='price__title'>Beer Pizza Crust</h3>
@@ -30,7 +30,7 @@ const Price = () => {
                     {/* 3 */}
                     <div className="col-md-4 ">
                         <div className='price__img'>
-                            <img src="/img/pizza3.png" className='img-fluid' alt="" />
+                                <img src={require('../img/pizza3.png')} className='img-fluid' alt="" />
                         </div>
                         <div className='price__content'>
                             <h3 className='price__title'>Pizza Biscuit Bake</h3>
@@ -43,7 +43,7 @@ const Price = () => {
                 <div className="row gy-3">
                     <div className="col-md-4 ">
                         <div className='price__img'>
-                            <img src="/img/pizza4.png" className='img-fluid' alt="" />
+                                <img src={require('../img/pizza4.png')} className='img-fluid' alt="" />
                         </div>
                         <div className='price__content'>
                             <h3 className='price__title'>Pizza Prosciutto</h3>
@@ -54,7 +54,7 @@ const Price = () => {
                     {/* 2 */}
                     <div className="col-md-4 ">
                         <div className='price__img'>
-                            <img src="/img/pizza5.png" className='img-fluid' alt="" />
+                            <img src={require('../img/pizza5.png')} className='img-fluid' alt="" />
                         </div>
                         <div className='price__content'>
                             <h3 className='price__title'>Crazy Crust Pizza</h3>
@@ -65,7 +65,7 @@ const Price = () => {
                     {/* 3 */}
                     <div className="col-md-4 ">
                         <div className='price__img'>
-                            <img src="/img/pizza6.png" className='img-fluid' alt="" />
+                            <img src={require('../img/pizza6.png')} className='img-fluid' alt="" />
                         </div>
                         <div className='price__content'>
                             <h3 className='price__title'>Low Carb Pizza</h3>

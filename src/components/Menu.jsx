@@ -7,7 +7,7 @@ const Menu = () => {
                 <div className="row">
                     <div className="col-md-6">
                         <div>
-                            <img src="/img/pizza.jpg" alt="" className='img-fluid' />
+                            <img src={require('../img/pizza.jpg')} alt="" className='img-fluid' />
                         </div>
                     </div>
                     <div className="col-md-6 mt-2 mt-md-0">

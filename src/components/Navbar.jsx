@@ -12,7 +12,7 @@ const Navbar = () => {
         )}
         <div className="container navbar__text d-flex align-items-center">
           <div className="logo">
-            <img src="/img/logo.png" alt="Image__Logo" />
+            <img src={require('../img/logo.png')} alt="Image__Logo" />
           </div>
           <ul
             className={
